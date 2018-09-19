@@ -215,7 +215,7 @@ Vagrant.configure(2) do |config|
         sudo chmod +x install_gitlab.sh
         sudo chmod +x configure_gitlab.sh
         sleep 5
-        ./gitlab.sh
+        ./install_gitlab.sh
      SHELL
     end
 
